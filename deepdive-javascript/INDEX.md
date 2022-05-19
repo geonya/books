@@ -5,7 +5,7 @@
 ![Start Date](https://img.shields.io/badge/Start%20Date-2022--02--23-23d16b.svg)
 
 </div>
-
+<div align="center">
 ## Notes
 
 | Ch. | Section |            Title             |  CreateAt  |                          Note                          |
@@ -56,6 +56,8 @@
 | 47  |   JS    |            Error             | 2022-05-19 |                 [Error](ch47-error.md)                 |
 | 48  |   JS    |             모듈             | 2022-05-19 |                 [모듈](ch48-module.md)                 |
 | 49  |   JS    |         바벨과 웹팩          | 2022-05-19 |          [바벨과 웹팩](ch49-babel-webpack.md)          |
+
+</div>
 
 <div align="center">
 <h3> Geony </h3>
