@@ -7,6 +7,19 @@ function createPerformanceCalculator(aPerformance, aPlay) {
 	throw new Error(`알 수 없는 장르 : ${aPlay.type}`);
 }
 
+class PerformanceCalculator {
+	constructor(aPerformance, aPlay) {
+		this.performance = aPerformance;
+		this.play = aPlay;
+	}
+	get amount() {
+		throw new Error("서브 클래스에서 처리하도록 설계됨");
+	}
+	get volumeCredits() {
+		return Math.max(this.performance - 30, 0);
+	}
+}
+
 class TregedyCaclulator extends PerformanceCalculator {
 	get amount() {
 		let result = 40000;
@@ -30,18 +43,6 @@ class ComedyCaclulator extends PerformanceCalculator {
 	}
 }
 
-class PerformanceCalculator {
-	constructor(aPerformance, aPlay) {
-		this.performance = aPerformance;
-		this.play = aPlay;
-	}
-	get amount() {
-		throw new Error("서브 클래스에서 처리하도록 설계됨");
-	}
-	get volumeCredits() {
-		return Math.max(this.performance - 30, 0);
-	}
-}
 export default function createStatementData(invoice, plays) {
 	const result = {};
 	result.customer = invoice.customer;
@@ -57,19 +58,9 @@ export default function createStatementData(invoice, plays) {
 		);
 		const result = { ...aPerformance };
 		result.play = calculator.play;
-		result.amount = calculator.amount; // amountFor(result) 대신 계산기 함수 이용
-		result.volumeCredits = calculator.volumeCredits; // volumeCreditsFor(result) 대신
+		result.amount = calculator.amount;
+		result.volumeCredits = calculator.volumeCredits;
 		return result;
-	}
-
-	function volumeCreditsFor(aPerformance) {
-		return new PerformanceCalculator(aPerformance, playFor(aPerformance))
-			.volumeCredits;
-	}
-
-	function amountFor(aPerformance) {
-		return new PerformanceCalculator(aPerformance, playFor(aPerformance))
-			.amount;
 	}
 
 	function playFor(aPerformance) {
