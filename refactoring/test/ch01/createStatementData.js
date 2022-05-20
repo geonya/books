@@ -11,7 +11,6 @@ export default function createStatementData(invoice, plays) {
 		result.play = playFor(result);
 		result.amount = amountFor(result);
 		result.volumeCredits = volumeCreditsFor(result);
-
 		return result;
 	}
 
@@ -55,9 +54,6 @@ export default function createStatementData(invoice, plays) {
 		return data.performances.reduce((total, p) => total + p.amount, 0);
 	}
 	function totalVolumeCredits(data) {
-		return data.performances.reduce(
-			(total, p) => total + p.volumeCredits,
-			0
-		);
+		return data.performances.reduce((total, p) => total + p.volumeCredits, 0);
 	}
 }

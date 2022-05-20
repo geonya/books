@@ -7,7 +7,7 @@
 </div>
 <div align="center">
 
-| Ch. | Section |            Title             |  CreateAt  |                          Note                          |
+| Ch. | Section |            Title             | CreatedAt  |                          Note                          |
 | :-: | :-----: | :--------------------------: | :--------: | :----------------------------------------------------: |
 |  4  |   JS    |             변수             | 2022-02-23 |                [변수](ch04-variable.md)                |
 |  5  |   JS    |              값              | 2022-02-23 |                  [값](ch05-value.md)                   |
