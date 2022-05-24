@@ -1,0 +1,11 @@
+{
+	"name": "ch04",
+	"main": "test.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"devDependencies": {
+		"chai": "*",
+		"mocha": "*"
+	}
+}
