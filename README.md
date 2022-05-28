@@ -9,5 +9,5 @@
 |  3  | Programming |         Refactoring          | 2022-05-23 |                 [Refactoring](refactoring/README.md)                 |
 |  4  |    Rust     |       Rust - The Book        | 2022-03-23 |              [Rust - The Book](rust-thebook/README.md)               |
 |  5  | Programming | The Secret Life Of Programs  | 2022-04-23 | [The Secret Life Of Programs](the-secret-life-of-programs/README.md) |
-|  5  | Block Chain | Smart Contract : Quick Start | 2022-03-23 | [The Secret Life Of Programs](smart-contract-quick-start/README.md)  |
+|  5  | Block Chain | Smart Contract : Quick Start | 2022-03-23 | [Smart Contract : Quick Start](smart-contract-quick-start/README.md) |
 |  6  | Programming |          Clean Code          | 2022-03-23 |                  [Clean Code](clean-code/README.md)                  |
