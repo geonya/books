@@ -1,5 +1,7 @@
 # [Refactoring] Ch.07 캡슐화
 
+[DeepDive JS Class](../../deepdive-javascript/ch25-class.md)
+
 - 모듈을 분리하는 가장 중요한 기준은 아마도 시스템에서 각 모듈이 자신을 제외한 다른 부분에 드러내지 않아야 할 비밀을 얼마나 잘 숨기느냐에 있을 것이다.
 - 이러한 비밀 중 대표적인 형태인 데이터 구조는 `레코드 캡슐화하기` `컬렉션 캡슐화하기` 로 캡슐화해서 숨길 수 있다.
 - 기본형 데이터도 `기본형을 객체로 바꾸기` 로 캡슐화할 수 있다.
@@ -18,9 +20,10 @@
 
 ![Start Date](https://img.shields.io/badge/Start%20Date-2022--05--25-23d16b.svg)
 
-| Vol |                  Title                   | CreatedAt  |                         Note                          |
-| :-: | :--------------------------------------: | :--------: | :---------------------------------------------------: |
-|  1  |   레코드 캡슐화하기 Encapuslate Record   | 2022-05-30 |   [레코드 캡슐화하기](ch07-1-Encapuslate-Record.md)   |
-|  2  | 컬렉션 캡슐화하기 Encapsulate Collection | 2022-06-02 | [컬렉션 캡슐화하기](ch07-2-Encapuslate-Collection.md) |
+| Vol |                               Notes                               | CreatedAt  |
+| :-: | :---------------------------------------------------------------: | :--------: |
+|  1  |         [레코드 캡슐화하기 Encapuslate Record](ch07-1.md)         | 2022-05-30 |
+|  2  |       [컬렉션 캡슐화하기 Encapsulate Collection](ch07-2.md)       | 2022-06-02 |
+|  3  | [기본형을 객체로 바꾸기 Replace Primitive with Object](ch07-3.md) | 2022-06-02 |
 
 </div>
