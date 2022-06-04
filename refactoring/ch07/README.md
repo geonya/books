@@ -20,10 +20,14 @@
 
 ![Start Date](https://img.shields.io/badge/Start%20Date-2022--05--25-23d16b.svg)
 
-| Vol |                               Notes                               | CreatedAt  |
-| :-: | :---------------------------------------------------------------: | :--------: |
-|  1  |         [레코드 캡슐화하기 Encapuslate Record](ch07-1.md)         | 2022-05-30 |
-|  2  |       [컬렉션 캡슐화하기 Encapsulate Collection](ch07-2.md)       | 2022-06-02 |
-|  3  | [기본형을 객체로 바꾸기 Replace Primitive with Object](ch07-3.md) | 2022-06-02 |
+| Vol |                                Notes                                | CreatedAt  |
+| :-: | :-----------------------------------------------------------------: | :--------: |
+|  1  |          [레코드 캡슐화하기 Encapuslate Record](ch07-1.md)          | 2022-05-30 |
+|  2  |        [컬렉션 캡슐화하기 Encapsulate Collection](ch07-2.md)        | 2022-06-02 |
+|  3  |  [기본형을 객체로 바꾸기 Replace Primitive with Object](ch07-3.md)  | 2022-06-02 |
+|  4  | [임시 변수를 질의 함수로 바꾸기 Replace Temp with Query](ch07-4.md) | 2022-06-04 |
+|  5  |             [클래스 추출하기 Extract Class](ch07-5.md)              | 2022-06-04 |
+|  6  |             [클래스 인라인하기 Inline Class](ch07-6.md)             | 2022-06-04 |
+|  7  |               [위임 숨기기 Hide Delegate](ch07-7.md)                | 2022-06-04 |
 
 </div>
