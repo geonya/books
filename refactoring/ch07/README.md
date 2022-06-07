@@ -29,5 +29,7 @@
 |  5  |             [클래스 추출하기 Extract Class](ch07-5.md)              | 2022-06-04 |
 |  6  |             [클래스 인라인하기 Inline Class](ch07-6.md)             | 2022-06-04 |
 |  7  |               [위임 숨기기 Hide Delegate](ch07-7.md)                | 2022-06-04 |
+|  8  |           [중개자 제거하기 Remove Middle Man](ch07-8.md)            | 2022-06-07 |
+|  9  |         [알고리즘 교체하기 Subsitute Algorithm](ch07-9.md)          | 2022-06-07 |
 
 </div>
